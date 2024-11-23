@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
-    <link rel="stylesheet" href="/assets/pages/login/login.css">
+    <link rel="stylesheet" href="/assets/pages/login/partials/login.css">
 </head>
 <body>
-    <h1>VRAU</h1>
+    <section class="login-container">
+        <div class="login-card">
+            <div class="login-icon">
+                <img src="imgs/user.svg" alt="user-icon">
+            </div>
+            <form>
+                <div class="input-field">
+                    <input type="email" required placeholder="E-mail"/>
+                </div>
+                <div class="input-field">
+                    <input type="password" required placeholder="Senha" id="password"/>
+                    <img src="imgs/ocultar.png" alt="Ocultar Senha" id="togglePassword"/>
+                </div>
+                <div class="options">
+                    <a href="#">Esqueceu a Senha?</a>
+                </div>
+
+                <button type="submit">Entrar</button>
+                <hr class="hr1">
+                <button type="button"><a href="cadastro.html">Criar Conta</button></a>
+            </form>
+            </div>
+         
+        
+    </section>
+
+    <div class="container-decoration">
+        <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
+        <img src="imgs/fechar.svg" alt="botaofechar" class="closebutton">
+    </div>
+    <script src="js/olho-magico.js"></script>
 </body>
 </html>
