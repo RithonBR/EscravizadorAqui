@@ -1,0 +1,141 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/imgs/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-card{
+    background: linear-gradient(180deg,rgba(217,234,242,0.40),rgba(217,234,242,0.05%));
+    backdrop-filter: blur(0.1px);
+    border-radius: 60px 0px 60px 60px;
+    padding: 25px 35px;
+    text-align: center;
+    width: 467px;
+    color: var(--preto);
+}
+
+.login-icon{
+    margin: 30px auto;
+    width: 151px;
+    height: 119px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 24px;
+    
+}
+
+.input-field input{
+    width: 100%;
+    height: 59px;
+    border-radius: 60px;
+    color: var(--azulClaro);
+    opacity: 70%;
+    text-indent: 30px;
+    border: none;
+}
+
+.input-field input::placeholder{
+    color: var(--azulClaro);
+}
+
+.input-field img {
+    opacity: 70%;
+    width: 40px;
+    
+}
+
+.input-field img#togglePassword {
+    position: absolute;
+    right: 20px; /* Ajusta a posição do ícone na horizontal */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%);
+    opacity: 70%;
+    width: 25px;
+    cursor: pointer;
+}
+
+.options{
+    text-align: right;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.options a {
+    font-family: fontbold;
+    color: white;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+button{
+    width: 193px;
+    height: 59px;
+    border-radius: 60px;
+    border: none;
+    background-color: var(--azulbotao);
+    color: var(--azulbebe);
+    margin-top: 11px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: var(--azulClaro);
+}
+
+.hr1 {
+    border-top: 1px solid #CCC;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+.CriarConta {
+    background-color: var(--azulbotao);
+    color: var(--azulClaro);
+    text-decoration: none;
+}
+
+.container-decoration {
+    position: absolute;
+    right: 511px;
+    top: 201px; 
+    opacity: 85%;
+}
+
+.closebutton{
+    position: relative;
+    right: 90px;
+    top: -90px;
+    cursor: pointer;
+}
+
+.container-decoration-back {
+    position: absolute;
+    right: 511px;
+    top: 220px; 
+    opacity: 85%;
+}
+
+.backbutton{
+    position: relative;
+    right: 90px;
+    top: -90px;
+    cursor: pointer;
+}
