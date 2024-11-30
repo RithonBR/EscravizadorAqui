@@ -32,20 +32,6 @@
 
 }
 
-li a {
-        border-radius: 60px;
-        border: none;
-        background-color: var(--azulbotao);
-        color: var(--azulbebe);
-        cursor: pointer;
-        font-size: 17px;
-        padding: 15px;
-}
-
-li a:hover {
-        background-color: var(--azulClaro);
-}
-
 .pesquisar {
     display: flex;
     justify-content: center;
@@ -78,15 +64,4 @@ li a:hover {
   } 
   /* END STACK */
 
-.container-decoration {
-    position: absolute;
-    right: 154px;
-    top: 62px; 
-}
 
-.userbutton {
-    position: relative;
-    width: 90px;
-    right: 112px;
-    top: -80px;
-}

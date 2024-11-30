@@ -1,0 +1,46 @@
+.container-decoration {
+    position: absolute;
+    right: 154px;
+    top: 62px; 
+}
+
+.userbutton {
+    position: relative;
+    width: 90px;
+    right: 112px;
+    top: -80px;
+}
+
+.menu-ativo{
+    background-color: var(--azulClaro);
+  }
+
+li a {
+    border-radius: 60px;
+    border: none;
+    background-color: var(--azulbotao);
+    color: var(--azulbebe);
+    cursor: pointer;
+    font-size: 17px;
+    padding: 15px;
+}
+
+li a:hover {
+    background-color: var(--azulClaro);
+}
+
+button{
+    width: 193px;
+    height: 59px;
+    border-radius: 60px;
+    border: none;
+    background-color: var(--azulbotao);
+    color: var(--azulbebe);
+    margin-top: 11px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: var(--azulClaro);
+}
