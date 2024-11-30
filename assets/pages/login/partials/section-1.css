@@ -84,22 +84,6 @@ body {
     text-decoration: underline;
 }
 
-button{
-    width: 193px;
-    height: 59px;
-    border-radius: 60px;
-    border: none;
-    background-color: var(--azulbotao);
-    color: var(--azulbebe);
-    margin-top: 11px;
-    cursor: pointer;
-    font-size: 17px;
-}
-
-button:hover{
-    background-color: var(--azulClaro);
-}
-
 .hr1 {
     border-top: 1px solid #CCC;
     width: 100%;
