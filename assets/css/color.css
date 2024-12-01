@@ -1,6 +1,28 @@
 :root {
+    /* Cor padrão para texto escuro ou fundo */
     --preto: #1D2115;
+
+    /* Cor principal de destaque (azul claro) */
     --azulClaro: #005A86;
+
+    /* Cor suave de fundo azul (azul bebê) */
     --azulbebe: #B0D3E4;
+
+    /* Cor de fundo ou botão principal (azul escuro) */
     --azulbotao: #00273B;
+
+    /* Variações de cores com opacidade */
+    --azulClaroTransparente: rgba(0, 90, 134, 0.5);  /* Azul claro com 50% de opacidade */
+    --azulEscuro: #003B53;  /* Azul mais escuro, usado para contrastar com o fundo */
+    --cinzaClaro: #F0F0F0;  /* Um cinza claro para backgrounds ou bordas */
+    --verdeClaro: #A1C86D;  /* Verde suave, bom para destacar algo positivo ou de sucesso */
+    --vermelhoErro: #D32F2F; /* Vermelho, geralmente utilizado para alertas ou erros */
+
+    /* Cores para o texto */
+    --textoClaro: #FFFFFF;  /* Branco, utilizado para texto em elementos escuros */
+    --textoEscuro: #333333;  /* Cor de texto escuro, ideal para textos principais */
+    
+    /* Cores adicionais para ícones e botões */
+    --iconColor: #4A90E2;  /* Cor de ícones, algo mais chamativo */
+    --botaoHover: #003A52;  /* Cor para hover em botões (um tom mais escuro do azul do botão) */
 }

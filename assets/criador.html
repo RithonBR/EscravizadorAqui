@@ -1,44 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dashboard</title>
-    <link rel="stylesheet" href="/assets/pages/criador/criador.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para tornar a página responsiva em dispositivos móveis -->
+    <title>dashboard</title> <!-- Define o título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="/assets/pages/criador/criador.css"> <!-- Vincula o arquivo CSS para o estilo da página -->
 </head>
 <body>
+    <!-- Início do contêiner principal do dashboard -->
     <div class="dashboard">
-    <div class="containerdash">
-        <div class="container-menu">
-            <ul class="menu">
-                <div class="menu-1">
-                <li>
-                    <img src="imgs/algemas.svg" alt="icone-algemas" class="algemasicone">
-                </li>
-                <li>
-                    <a href="home.html"><span>ESCRAVIZADORES</span></a>
-                </li>
+        <!-- Contêiner do conteúdo principal -->
+        <div class="containerdash">
+            <!-- Menu de navegação -->
+            <div class="container-menu">
+                <ul class="menu">
+                    <!-- Menu de navegação à esquerda -->
+                    <div class="menu-1">
+                        <li>
+                            <img src="imgs/algemas.svg" alt="icone-algemas" class="algemasicone"> <!-- Ícone de algemas -->
+                        </li>
+                        <li>
+                            <a href="home.html"><span>ESCRAVIZADORES</span></a> <!-- Link para a página "ESCRAVIZADORES" -->
+                        </li>
+                    </div>
+                    <!-- Menu de navegação à direita -->
+                    <div class="menu-2">
+                        <li>
+                            <a href="conzientizese.html"><span>CONCIENTIZE-SE</span></a> <!-- Link para a página "CONCIENTIZE-SE" -->
+                        </li>
+                        <li>
+                            <a href="criador.html" class="menu-ativo"><span>CRIADOR</span></a> <!-- Link para a página "CRIADOR", com classe ativa -->
+                        </li>
+                    </div>
+                </ul>
+                <!-- Contêiner do criador -->
+                <div class="container-creator">
+                    <div><img src="imgs/creator.svg" alt="creator-picture"> <!-- Imagem do criador -->
+                    </div>
+                    <span class="nome-criador">Luciano</span> <!-- Nome do criador -->
+                    <div class="icons-creator">
+                        <img src="icons/github.svg" alt="github-icon"> <!-- Ícone do GitHub -->
+                        <img src="icons/instagram.svg" alt="instagram-icon"> <!-- Ícone do Instagram -->
+                    </div>
                 </div>
-                <div class="menu-2">
-                <li>
-                    <a href="conzientizese.html"><span>CONCIENTIZE-SE</span></a>
-                </li>
-                <li>
-                    <a href="criador.html" class="menu-ativo"><span>CRIADOR</span></a>
-                </li>
-            </div>
-            </ul>
-            <div class="container-creator">
-                <div><img src="imgs/creator.svg" alt="creator-picture"></div>
-                <span class="nome-criador">Luciano</span>
-                <div class="icons-creator"><img src="icons/github.svg" alt="github-icon"><img src="icons/instagram.svg" alt="instagram-icon"></div>
             </div>
         </div>
-    </div>
-    <div class="container-decoration">
-        <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
-        <a href="login.html"><img src="imgs/user.svg" alt="botaousuario" class="userbutton"></a>
-    </div>
+        <!-- Imagem decorativa e botão de usuário -->
+        <div class="container-decoration-pages">
+            <img src="imgs/teste.png" alt="decoration" class="decoration-close"/> <!-- Imagem decorativa -->
+            <a href="login.html"><img src="imgs/user.svg" alt="botaousuario" class="userbutton"></a> <!-- Ícone de usuário, link para login -->
+        </div>
     </div>
 </body>
 </html>

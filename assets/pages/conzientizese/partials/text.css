@@ -1,5 +1,10 @@
-.contianer-texto{
+.contianer-texto {
+    /* Definindo o layout flexível para a seção de texto */
     display: flex;
+
+    /* Alinha os itens no centro da vertical */
     align-items: center;
+
+    /* Alinha os itens no centro da horizontal */
     justify-content: center;
 }

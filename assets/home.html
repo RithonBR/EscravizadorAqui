@@ -1,47 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <!-- Definindo a codificação de caracteres como UTF-8 para garantir a correta exibição de caracteres especiais -->
     <meta charset="UTF-8">
+    
+    <!-- Definindo as configurações da viewport para tornar o site responsivo em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página que será exibido na aba do navegador -->
     <title>EscravizadorAQUI</title>
+    
+    <!-- Link para o arquivo CSS externo que vai estilizar a página -->
     <link rel="stylesheet" href="/assets/pages/home/home.css">
 </head>
 <body>
+    <!-- Contêiner principal que agrupa todo o conteúdo da página -->
     <div class="dashboard">
-    <div class="containerdash">
-        <div class="container-menu">
-            <ul class="menu">
-                <div class="menu-1">
-                <li>
-                    <img src="imgs/algemas.svg" alt="icone-algemas" class="algemasicone">
-                </li>
-                <li>
-                    <a href="home.html" class="menu-ativo"><span>ESCRAVIZADORES</span></a>
-                </li>
-                </div>
-                <div class="menu-2">
-                <li>
-                    <a href="conzientizese.html"><span>CONCIENTIZE-SE</span></a>
-                </li>
-                <li>
-                    <a href="criador.html"><span>CRIADOR</span></a>
-                </li>
+    
+        <!-- Contêiner da dashboard, onde o menu e a busca estão localizados -->
+        <div class="containerdash">
+        
+            <!-- Menu de navegação principal -->
+            <div class="container-menu">
+                <ul class="menu">
+                
+                    <!-- Menu à esquerda, contendo ícones e links -->
+                    <div class="menu-1">
+                        <li>
+                            <!-- Ícone de algemas, que provavelmente representa o link ou a seção de "Escravizadores" -->
+                            <img src="imgs/algemas.svg" alt="icone-algemas" class="algemasicone">
+                        </li>
+                        <li>
+                            <!-- Link para a página inicial (home) com a classe "menu-ativo" indicando a página ativa -->
+                            <a href="home.html" class="menu-ativo"><span>ESCRAVIZADORES</span></a>
+                        </li>
+                    </div>
+                    
+                    <!-- Menu à direita, contendo mais links -->
+                    <div class="menu-2">
+                        <li>
+                            <!-- Link para a página de conscientização -->
+                            <a href="conzientizese.html"><span>CONCIENTIZE-SE</span></a>
+                        </li>
+                        <li>
+                            <!-- Link para a página do criador -->
+                            <a href="criador.html"><span>CRIADOR</span></a>
+                        </li>
+                    </div>
+                </ul>
             </div>
-            </ul>
+            
+            <!-- Barra de pesquisa -->
+            <div class="pesquisar">
+                <!-- Inclusão de um link para a biblioteca de ícones do Font Awesome -->
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+                
+                <!-- Campo de pesquisa com o botão de busca -->
+                <div class="col-6 col-md-4">
+                    <div class="busca">
+                        <!-- Campo de entrada para o texto de pesquisa -->
+                        <input type="text" id="campo_busca" placeholder="O que você procura?" class="idem">
+                        
+                        <!-- Botão de busca que usa o ícone de pesquisa do Font Awesome -->
+                        <button type="submit" onclick="" class="buscar_produto idem">
+                            <i class="fa fa-search" action=""></i>
+                        </button>
+                    </div> 
+                </div>
+            </div>
         </div>
-        <div class="pesquisar">
-            <!-- stack -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
-        <div class="col-6 col-md-4">
-        <div class="busca"><input type="text" id="campo_busca" placeholder="O que você procura?" class="idem"><button type="submit" onclick="" class="buscar_produto idem"><i class="fa fa-search" action=""></i></button> </div> 
-        <!-- end stack -->
-    </div>  
-         </div>
-    </div>
-    <div class="container-decoration">
-        <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
-        <a href="login.html"><img src="imgs/user.svg" alt="botaousuario" class="userbutton"></a>
-    </div>
+
+        <!-- Área de decoração, provavelmente contendo uma imagem decorativa -->
+        <div class="container-decoration-pages">
+            <!-- Imagem de decoração (geralmente usada para melhorar o visual da página) -->
+            <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
+            
+            <!-- Link para a página de login -->
+            <a href="login.html">
+                <!-- Ícone de usuário (botão de login) -->
+                <img src="imgs/user.svg" alt="botaousuario" class="userbutton">
+            </a>
+        </div>
     </div>
 </body>
 </html>

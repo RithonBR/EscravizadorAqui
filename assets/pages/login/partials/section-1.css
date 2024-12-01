@@ -1,125 +1,140 @@
+/* Estilo global para o body */
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/assets/imgs/background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 100vh; /* Define a altura da tela como 100% da altura da janela de visualização */
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-image: url(/assets/imgs/background.png); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-size: cover; /* A imagem de fundo cobre toda a área disponível */
 }
 
+/* Estilo para o contêiner de login */
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    display: flex; /* Usa Flexbox para centralizar o conteúdo dentro do contêiner */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%; /* Ocupa 100% da largura da tela */
 }
 
-.login-card{
-    background: linear-gradient(180deg,rgba(217,234,242,0.40),rgba(217,234,242,0.05%));
-    backdrop-filter: blur(0.1px);
-    border-radius: 60px 0px 60px 60px;
-    padding: 25px 35px;
-    text-align: center;
-    width: 467px;
-    color: var(--preto);
+/* Estilo para o cartão de login */
+.login-card {
+    background: linear-gradient(180deg, rgba(217, 234, 242, 0.40), rgba(217, 234, 242, 0.05%)); /* Define um fundo com gradiente */
+    backdrop-filter: blur(0.1px); /* Aplica um desfoque suave ao fundo */
+    border-radius: 60px 0px 60px 60px; /* Arredonda os cantos do cartão */
+    padding: 25px 35px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro do cartão */
+    width: 467px; /* Define a largura do cartão */
+    color: var(--preto); /* Define a cor do texto (variável personalizada) */
 }
 
-.login-icon{
-    margin: 30px auto;
-    width: 151px;
-    height: 119px;
+/* Estilo do ícone de login */
+.login-icon {
+    margin: 30px auto; /* Centraliza o ícone e adiciona margens */
+    width: 151px; /* Define a largura do ícone */
+    height: 119px; /* Define a altura do ícone */
 }
 
+/* Estilo para os campos de entrada */
 .input-field {
-    position: relative;
-    margin-bottom: 24px;
-    
+    position: relative; /* Necessário para posicionamento absoluto do ícone de olho */
+    margin-bottom: 24px; /* Adiciona espaço abaixo de cada campo */
 }
 
-.input-field input{
-    width: 100%;
-    height: 59px;
-    border-radius: 60px;
-    color: var(--azulClaro);
-    opacity: 70%;
-    text-indent: 30px;
-    border: none;
+.input-field input {
+    width: 100%; /* Define a largura do campo de entrada como 100% */
+    height: 59px; /* Define a altura do campo de entrada */
+    border-radius: 60px; /* Arredonda os cantos do campo de entrada */
+    color: var(--azulClaro); /* Define a cor do texto (variável personalizada) */
+    opacity: 70%; /* Torna o campo ligeiramente transparente */
+    text-indent: 30px; /* Indenta o texto para a direita */
+    border: none; /* Remove a borda padrão */
 }
 
-.input-field input::placeholder{
-    color: var(--azulClaro);
+/* Estilo para o texto de placeholder do campo de entrada */
+.input-field input::placeholder {
+    color: var(--azulClaro); /* Define a cor do texto do placeholder */
 }
 
+/* Estilo para o ícone de senha (mostrar/ocultar) */
 .input-field img {
-    opacity: 70%;
-    width: 40px;
-    
+    opacity: 70%; /* Torna o ícone ligeiramente transparente */
+    width: 40px; /* Define a largura do ícone */
 }
 
+/* Estilo específico para o ícone de mostrar/ocultar senha */
 .input-field img#togglePassword {
-    position: absolute;
+    position: absolute; /* Posiciona o ícone absolutamente dentro do campo */
     right: 20px; /* Ajusta a posição do ícone na horizontal */
     top: 50%; /* Centraliza verticalmente */
-    transform: translateY(-50%);
-    opacity: 70%;
-    width: 25px;
-    cursor: pointer;
+    transform: translateY(-50%); /* Compensa a altura do ícone para centralização perfeita */
+    opacity: 70%; /* Torna o ícone ligeiramente transparente */
+    width: 25px; /* Define a largura do ícone */
+    cursor: pointer; /* Muda o cursor para indicar que o ícone é clicável */
 }
 
-.options{
-    text-align: right;
-    margin-bottom: 11px;
-    color: white;
+/* Estilo para a seção de opções (Esqueceu a senha) */
+.options {
+    text-align: right; /* Alinha o texto à direita */
+    margin-bottom: 11px; /* Adiciona margem inferior */
+    color: white; /* Define a cor do texto */
 }
 
+/* Estilo para o link "Esqueceu a Senha?" */
 .options a {
-    font-family: fontbold;
-    color: white;
-    text-decoration: none;
+    font-family: fontbold; /* Usa uma fonte em negrito */
+    color: white; /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
 }
 
+/* Estilo para o link "Esqueceu a Senha?" quando o usuário passa o mouse sobre ele */
 .options a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
 }
 
+/* Estilo para a linha horizontal (separador) */
 .hr1 {
-    border-top: 1px solid #CCC;
-    width: 100%;
-    margin-top: 15px;
-  }
+    border-top: 1px solid #CCC; /* Cria uma linha horizontal com borda */
+    width: 100%; /* Ocupa 100% da largura disponível */
+    margin-top: 15px; /* Adiciona margem no topo */
+}
 
+/* Estilo para o botão de criar conta */
 .CriarConta {
-    background-color: var(--azulbotao);
-    color: var(--azulClaro);
-    text-decoration: none;
+    background-color: var(--azulbotao); /* Define a cor de fundo */
+    color: var(--azulClaro); /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
 }
 
+/* Estilo para a imagem decorativa */
 .container-decoration {
-    position: absolute;
-    right: 511px;
-    top: 201px; 
-    opacity: 85%;
+    position: absolute; /* Posiciona a imagem de forma absoluta */
+    right: 511px; /* Ajusta a posição no eixo X */
+    top: 201px; /* Ajusta a posição no eixo Y */
+    opacity: 85%; /* Torna a imagem ligeiramente transparente */
 }
 
-.closebutton{
-    position: relative;
-    right: 90px;
-    top: -90px;
-    cursor: pointer;
+/* Estilo para o botão de fechar */
+.closebutton {
+    position: relative; /* Posiciona o botão de fechar dentro do contêiner */
+    right: 90px; /* Ajusta a posição do botão no eixo X */
+    top: -90px; /* Ajusta a posição do botão no eixo Y */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
 }
 
+/* Estilo para o contêiner de decoração de fundo */
 .container-decoration-back {
-    position: absolute;
-    right: 511px;
-    top: 220px; 
-    opacity: 85%;
+    position: absolute; /* Posiciona a imagem de fundo de forma absoluta */
+    right: 511px; /* Ajusta a posição no eixo X */
+    top: 220px; /* Ajusta a posição no eixo Y */
+    opacity: 85%; /* Torna a imagem ligeiramente transparente */
 }
 
-.backbutton{
-    position: relative;
-    right: 90px;
-    top: -90px;
-    cursor: pointer;
+/* Estilo para o botão de voltar */
+.backbutton {
+    position: relative; /* Posiciona o botão de voltar dentro do contêiner */
+    right: 90px; /* Ajusta a posição do botão no eixo X */
+    top: -90px; /* Ajusta a posição do botão no eixo Y */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
 }
