@@ -29,7 +29,7 @@ Este projeto visa criar um **site informativo** para mostrar a lista de pessoas 
 ## Como Usar
 
 1. **Clone o repositório:**
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/RithonBR/EscravizadorAqui)
 
 
 2. **Instale as dependências (se necessário)**:
