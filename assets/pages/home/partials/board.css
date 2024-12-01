@@ -1,67 +1,76 @@
+/* Estilo para o contêiner principal da dashboard */
 .containerdash {
-    width: 1200px;
-    height: 900px;
-    margin-top: 30px;
-    background: linear-gradient(180deg,rgba(217,234,242,0.40),rgba(217,234,242,0.05%));
-    backdrop-filter: blur(0.1px);
-    border-radius: 60px 0px;
+  width: 1200px; /* Define a largura do contêiner da dashboard */
+  height: 900px; /* Define a altura do contêiner */
+  margin-top: 30px; /* Adiciona uma margem superior para afastar do topo da página */
+  background: linear-gradient(180deg, rgba(217, 234, 242, 0.40), rgba(217, 234, 242, 0.05%)); /* Aplica um gradiente de cor no fundo do contêiner */
+  backdrop-filter: blur(0.1px); /* Aplica um desfoque no fundo do contêiner */
+  border-radius: 60px 0px; /* Aplica bordas arredondadas no canto superior esquerdo e inferior esquerdo */
 }
 
+/* Estilo para o menu principal */
 .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: linear-gradient(180deg,rgba(217,234,242,0.40),rgba(217,234,242,0.05%));
-    backdrop-filter: blur(0.1px);
-    border-radius: 60px 0px 0px 0px;
-    padding: 20px;
-    gap: 5rem;
+  display: flex; /* Usado para criar um layout flexível */
+  align-items: center; /* Alinha os itens no centro ao longo do eixo transversal */
+  justify-content: space-between; /* Distribui os itens com espaço entre eles ao longo do eixo principal */
+  background: linear-gradient(180deg, rgba(217, 234, 242, 0.40), rgba(217, 234, 242, 0.05%)); /* Aplica o mesmo gradiente de cor do contêiner da dashboard */
+  backdrop-filter: blur(0.1px); /* Aplica desfoque no fundo do menu */
+  border-radius: 60px 0px 0px 0px; /* Aplica bordas arredondadas no canto superior esquerdo */
+  padding: 20px; /* Adiciona espaçamento interno de 20px */
+  gap: 5rem; /* Adiciona espaço entre os itens do menu */
 }
 
-.menu-1{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 7rem;
-    margin-left: 20px;
-}
-.menu-2{
-    display: flex;
-    align-items: center;
-    gap: 5rem;
-
+/* Estilo para o primeiro grupo de itens no menu */
+.menu-1 {
+  display: flex; /* Usado para criar um layout flexível */
+  justify-content: left; /* Alinha os itens à esquerda */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  gap: 7rem; /* Adiciona um grande espaço entre os itens do grupo */
+  margin-left: 20px; /* Adiciona uma margem à esquerda do grupo */
 }
 
+/* Estilo para o segundo grupo de itens no menu */
+.menu-2 {
+  display: flex; /* Usado para criar um layout flexível */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  gap: 5rem; /* Adiciona um espaço entre os itens */
+}
+
+/* Estilo para a área de pesquisa */
 .pesquisar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex; /* Usado para criar um layout flexível */
+  justify-content: center; /* Alinha os itens horizontalmente ao centro */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
 }
 
-/* STACK */
+/* Estilos para os campos de busca */
 .idem {
-    padding: 20px;
-    border: 1px #DDD solid;
-  }
-  .idem:nth-child(1){
-    width: 300px;
-    border-radius: 60px 0px 0px 60px;
-  }
-  .idem:nth-child(2){
-    width: 60px;
-    border-radius: 0px 60px 60px 0px;
-    text-align:left;
-    color: white;
-    background: var(--azulbotao);
-    border: none;
-    cursor: pointer;
-    text-indent: -1.3px;
-  }
-  .idem:nth-child(1):focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
-    border: 1px #DDD solid;
-  } 
-  /* END STACK */
+  padding: 20px; /* Adiciona espaçamento interno */
+  border: 1px #DDD solid; /* Aplica uma borda cinza clara ao redor do campo */
+}
 
+/* Estilo para o primeiro campo de busca (input) */
+.idem:nth-child(1) {
+  width: 300px; /* Define a largura do campo de busca */
+  border-radius: 60px 0px 0px 60px; /* Aplica bordas arredondadas no canto esquerdo */
+}
+
+/* Estilo para o segundo campo de busca (botão) */
+.idem:nth-child(2) {
+  width: 60px; /* Define a largura do botão */
+  border-radius: 0px 60px 60px 0px; /* Aplica bordas arredondadas no canto direito */
+  text-align: left; /* Alinha o conteúdo do botão à esquerda */
+  color: white; /* Define a cor do texto como branca */
+  background: var(--azulbotao); /* Aplica uma cor de fundo personalizada para o botão (variável CSS) */
+  border: none; /* Remove a borda padrão do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha quando o botão é hover */
+  text-indent: -1.3px; /* Remove um pequeno recuo no texto */
+}
+
+/* Estilo para o primeiro campo de busca quando ele recebe o foco */
+.idem:nth-child(1):focus {
+  box-shadow: 0 0 0 0; /* Remove o efeito de sombra ao focar */
+  outline: 0; /* Remove o contorno padrão ao focar */
+  border: 1px #DDD solid; /* Aplica a borda padrão do campo de busca */
+}
 

@@ -1,8 +1,10 @@
 @import url(Reset.css);
 @import url(color.css);
 @import url(fonts.css);
+@import url(simpleThings.css);
+@import url(decoration.css);
 @import url(/assets/pages/home/home.css);
 @import url(/assets/pages/login/login.css);
 @import url(/assets/pages/criador/criador.css);
 @import url(/assets/pages/conzientizese/conzientizese.css);
-@import url(simpleThings.css);
+

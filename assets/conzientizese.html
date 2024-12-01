@@ -1,43 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <!-- Definindo o conjunto de caracteres para UTF-8 -->
     <meta charset="UTF-8">
+    
+    <!-- Garantindo que a página seja responsiva e se ajuste ao tamanho da tela do dispositivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página exibido na aba do navegador -->
     <title>dashboard</title>
+    
+    <!-- Link para o arquivo de estilos (CSS) que estiliza a página -->
     <link rel="stylesheet" href="/assets/pages/conzientizese/conzientizese.css">
 </head>
 <body>
+    <!-- Div principal que contém todo o conteúdo da página -->
     <div class="dashboard">
-    <div class="containerdash">
-        <div class="container-menu">
-            <ul class="menu">
-                <div class="menu-1">
-                <li>
-                    <img src="imgs/algemas.svg" alt="icone-algemas" class="algemasicone">
-                </li>
-                <li>
-                    <a href="home.html"><span>ESCRAVIZADORES</span></a>
-                </li>
-                </div>
-                <div class="menu-2">
-                <li>
-                    <a href="conzientizese.html"  class="menu-ativo"><span>CONCIENTIZE-SE</span></a>
-                </li>
-                <li>
-                    <a href="criador.html"><span>CRIADOR</span></a>
-                </li>
-            </div>
-            </ul>
-            <div class="contianer-texto">
-                <span>varios TEXTOs de concientizacao</span>
-            </div>
+        
+        <!-- Contêiner que envolve o conteúdo do dashboard -->
+        <div class="containerdash">
             
+            <!-- Menu de navegação da página -->
+            <div class="container-menu">
+                <ul class="menu">
+                    
+                    <!-- Menu à esquerda -->
+                    <div class="menu-1">
+                        <li>
+                            <!-- Ícone de algemas representado por uma imagem -->
+                            <img src="imgs/algemas.svg" alt="icone-algemas" class="algemasicone">
+                        </li>
+                        <li>
+                            <!-- Link para a página "ESCRAVIZADORES" -->
+                            <a href="home.html"><span>ESCRAVIZADORES</span></a>
+                        </li>
+                    </div>
+                    
+                    <!-- Menu à direita -->
+                    <div class="menu-2">
+                        <li>
+                            <!-- Link para a página "CONCIENTIZE-SE", com a classe 'menu-ativo' para destacar a página atual -->
+                            <a href="conzientizese.html" class="menu-ativo"><span>CONCIENTIZE-SE</span></a>
+                        </li>
+                        <li>
+                            <!-- Link para a página "CRIADOR" -->
+                            <a href="criador.html"><span>CRIADOR</span></a>
+                        </li>
+                    </div>
+                </ul>
+                
+                <!-- Seção de conteúdo central, com textos de conscientização -->
+                <div class="contianer-texto">
+                    <!-- Exibição de textos de conscientização -->
+                    <span>varios TEXTOs de concientizacao</span>
+                </div>
+                
+            </div>
         </div>
-    </div>
-    <div class="container-decoration">
-        <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
-        <a href="login.html"><img src="imgs/user.svg" alt="botaousuario" class="userbutton"></a>
-    </div>
+
+        <!-- Seção de decoração da página -->
+        <div class="container-decoration-pages">
+            <!-- Imagem de decoração -->
+            <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
+            
+            <!-- Link de navegação para a página de login, com um ícone de usuário -->
+            <a href="login.html"><img src="imgs/user.svg" alt="botaousuario" class="userbutton"></a>
+        </div>
     </div>
 </body>
 </html>

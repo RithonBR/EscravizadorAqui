@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de login</title>
-    <link rel="stylesheet" href="/assets/pages/login/login.css">
+    <meta charset="UTF-8"> <!-- Define o charset como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna a página responsiva em diferentes dispositivos -->
+    <title>Tela de login</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="/assets/pages/login/login.css"> <!-- Link para o arquivo de estilo CSS da página de login -->
 </head>
 <body>
+    <!-- Contêiner principal da tela de login -->
     <section class="login-container">
+        <!-- Cartão de login -->
         <div class="login-card">
+            <!-- Ícone de usuário no topo do cartão -->
             <div class="login-icon">
-                <img src="imgs/user.svg" alt="user-icon">
+                <img src="imgs/user.svg" alt="user-icon"> <!-- Ícone de usuário -->
             </div>
+            <!-- Formulário de login -->
             <form>
+                <!-- Campo de entrada para e-mail -->
                 <div class="input-field">
-                    <input type="email" required placeholder="E-mail"/>
+                    <input type="email" required placeholder="E-mail"/> <!-- Campo de e-mail com validação de preenchimento -->
                 </div>
+                <!-- Campo de entrada para senha -->
                 <div class="input-field">
-                    <input type="password" required placeholder="Senha" id="password"/>
-                    <img src="imgs/ocultar.png" alt="Ocultar Senha" id="togglePassword"/>
+                    <input type="password" required placeholder="Senha" id="password"/> <!-- Campo de senha com validação -->
+                    <img src="imgs/ocultar.png" alt="Ocultar Senha" id="togglePassword"/> <!-- Ícone de mostrar/ocultar senha -->
                 </div>
+                <!-- Links de opções abaixo do campo de senha -->
                 <div class="options">
-                    <a href="#">Esqueceu a Senha?</a>
+                    <a href="#">Esqueceu a Senha?</a> <!-- Link de recuperação de senha -->
                 </div>
 
+                <!-- Botão para submeter o formulário de login -->
                 <button type="submit">Entrar</button>
+                <!-- Linha horizontal -->
                 <hr class="hr1">
-                <button type="button"><a href="cadastro.html">Criar Conta</button></a>
+                <!-- Botão para redirecionar para a página de cadastro -->
+                <button type="button"><a href="cadastro.html">Criar Conta</a></button> <!-- Redireciona para a página de cadastro -->
             </form>
-            </div>
+        </div>
     </section>
+
+    <!-- Imagem decorativa e botão para fechar -->
     <div class="container-decoration">
-        <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
-        <a href="home.html"><img src="imgs/fechar.svg" alt="botaofechar" class="closebutton"></a>
+        <img src="imgs/teste.png" alt="decoration" class="decoration-close"/> <!-- Imagem de decoração -->
+        <a href="home.html"><img src="imgs/fechar.svg" alt="botaofechar" class="closebutton"></a> <!-- Botão de fechar, redireciona para a página inicial -->
     </div>
-    <script src="js/olho-magico.js"></script>
+
+    <script src="js/olho-magico.js"></script> <!-- Script para funcionalidade de mostrar/ocultar a senha -->
 </body>
 </html>

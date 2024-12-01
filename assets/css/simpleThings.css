@@ -1,20 +1,3 @@
-.container-decoration {
-    position: absolute;
-    right: 154px;
-    top: 62px; 
-}
-
-.userbutton {
-    position: relative;
-    width: 90px;
-    right: 112px;
-    top: -80px;
-}
-
-.menu-ativo{
-    background-color: var(--azulClaro);
-  }
-
 li a {
     border-radius: 60px;
     border: none;

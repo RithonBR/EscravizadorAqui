@@ -1,0 +1,22 @@
+.container-decoration {
+  position: absolute;
+  right: 51.5vh;
+  top: 20.2vh; 
+}
+
+.container-decoration-pages{
+  position: absolute;
+  right: 15.5vh;
+  top: 6.2vh; 
+}
+
+.userbutton {
+  position: relative;
+  width: 90px;
+  right: 112px;
+  top: -80px;
+}
+
+.menu-ativo{
+  background-color: var(--azulClaro);
+}

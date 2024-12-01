@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
     <meta charset="UTF-8">
+    
+    <!-- Configura o viewport para garantir que o site seja responsivo em diferentes dispositivos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Define o título da página -->
     <title>Tela de login</title>
+    
+    <!-- Link para o arquivo de estilos CSS da página -->
     <link rel="stylesheet" href="/assets/pages/login/login.css">
 </head>
 <body>
+    <!-- Seção principal que envolve o formulário de login -->
     <section class="login-container">
         <div class="login-card">
+            <!-- Ícone de cadastro -->
             <div class="login-icon">
                 <img src="imgs/cadastro.svg" alt="cadastro-icon">
             </div>
+
+            <!-- Formulário de cadastro -->
             <form>
+                <!-- Campo para inserção do e-mail -->
                 <div class="input-field">
                     <input type="email" required placeholder="E-mail"/>
                 </div>
+
+                <!-- Campo para inserção da senha -->
                 <div class="input-field">
                     <input type="password" required placeholder="Senha" id="password"/>
                 </div>
+
+                <!-- Campo para confirmação de senha -->
                 <div class="input-field">
                     <input type="password" required placeholder="Confirme a Senha" id="password"/>
                 </div>
+
+                <!-- Botão para envio do formulário de criação de conta -->
                 <button type="submit">Criar Conta</button>
             </form>
-            </div>
-         
-        
+        </div>
     </section>
 
+    <!-- Container para elementos de decoração na página -->
     <div class="container-decoration-back">
+        <!-- Imagem de fundo ou decoração -->
         <img src="imgs/teste.png" alt="decoration" class="decoration-back"/>
+        
+        <!-- Botão de voltar para a tela de login -->
         <a href="login.html"><img src="imgs/voltar.svg" alt="backbutton" class="backbutton"></a>
     </div>
+
+    <!-- Script para funcionalidades adicionais, como exibição de senha -->
     <script src="js/olho-magico.js"></script>
 </body>
 </html>
