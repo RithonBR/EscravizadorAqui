@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EscravizadorAQUI</title>
+    <link rel="stylesheet" href="/assets/pages/home/home.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="containerdash">
+            <div class="container-menu">
+                <ul class="menu">
+                    <div class="menu-1">
+                        <li><img src="imgs/algemas.svg" alt="icone-algemas" class="algemasicone"></li>
+                        <li><a href="home.html" class="menu-ativo"><span>ESCRAVIZADORES</span></a></li>
+                    </div>
+                    <div class="menu-2">
+                        <li><a href="conzientizese.html"><span>CONCIENTIZE-SE</span></a></li>
+                        <li><a href="criador.html"><span>CRIADOR</span></a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="pesquisar">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+                <div class="col-6 col-md-4">
+                    <div class="busca">
+                        <input type="text" id="campo_busca" placeholder="O que você procura?" class="idem">
+                        <button type="submit" onclick="" class="buscar_produto idem">
+                            <i class="fa fa-search" action=""></i>
+                        </button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container-decoration-pages">
+            <img src="imgs/teste.png" alt="decoration" class="decoration-close"/>
+            <a href="login.html">
+                <img src="imgs/user.svg" alt="botaousuario" class="userbutton">
+            </a>
+        </div>
+
+        <!-- Aqui vai a tabela -->
+        <div class="tabela-container">
+            <h2>Dados Importados do Excel</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Coluna 1</th>
+                        <th>Coluna 2</th>
+                        <th>Coluna 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dado 1</td>
+                        <td>Dado 2</td>
+                        <td>Dado 3</td>
+                    </tr>
+                    <tr>
+                        <td>Dado 4</td>
+                        <td>Dado 5</td>
+                        <td>Dado 6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
 
